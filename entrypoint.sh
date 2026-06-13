@@ -1,5 +1,5 @@
 #!/bin/sh
-set -eu
+set -eux
 
 mkdir -p /root/.ssh
 echo "$AUTHORIZED_KEYS" > /root/.ssh/authorized_keys
