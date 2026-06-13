@@ -8,4 +8,4 @@ chmod 600 /root/.ssh/authorized_keys
 
 /usr/sbin/sshd -t
 
-exec /usr/sbin/sshd
+exec /usr/sbin/sshd -D
